@@ -5,69 +5,52 @@
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 167 nodes · 161 edges · 34 communities (9 shown, 25 thin omitted)
+- 205 nodes · 204 edges · 14 communities (13 shown, 1 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `3bc68012`
+- Built from commit: `14c0b7c9`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - Package Dependencies
 - TypeScript Compiler Setup
-- Module
+- Design Specification: Modular NestJS Backend Setup
 - npm / pnpm Build Scripts
 - package.json
 - app.module.ts
 - Build TS Config
-- ts-jest
+- backend/README.md
 - devDependencies
 - NestJS CLI Settings
-- Module 10
-- Module 11
-- Injectable
-- @eslint/js
-- eslint-plugin-prettier
-- globals
-- jest
-- @nestjs/cli
-- @nestjs/schematics
-- prettier
-- prisma
-- source-map-support
-- supertest
-- Module 23
-- Module 24
-- Module 25
-- Module 26
-- Module 27
-- Module 28
-- Module 29
-- Module 30
-- Controller
-- Get
+- Global Constraints
+- 20260809151942_init_automation_core_tables/migration.sql
+- README.md
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
 2. `scripts` - 17 edges
 3. `jest` - 8 edges
-4. `PrismaService` - 5 edges
-5. `exclude` - 5 edges
-6. `AppModule` - 4 edges
-7. `moduleFileExtensions` - 4 edges
-8. `PrismaModule` - 4 edges
-9. `compilerOptions` - 2 edges
-10. `@nestjs/common` - 2 edges
+4. `Global Constraints` - 7 edges
+5. `Design Specification: Modular NestJS Backend Setup` - 7 edges
+6. `"executions"` - 5 edges
+7. `PrismaService` - 5 edges
+8. `exclude` - 5 edges
+9. `3. Core Modules & Configuration Details` - 5 edges
+10. `moduleFileExtensions` - 4 edges
 
 ## Surprising Connections (you probably didn't know these)
-- None detected - all connections are within the same source files.
+- `"credentials"` --references--> `"users"`  [EXTRACTED]
+  backend/prisma/migrations/20260809151942_init_automation_core_tables/migration.sql → backend/prisma/migrations/20260809135427_initial/migration.sql
+- `"workflows"` --references--> `"users"`  [EXTRACTED]
+  backend/prisma/migrations/20260809151942_init_automation_core_tables/migration.sql → backend/prisma/migrations/20260809135427_initial/migration.sql
 
 ## Import Cycles
 - None detected.
 
-## Communities (34 total, 25 thin omitted)
+## Communities (14 total, 1 thin omitted)
 
 ### Community 0 - "Package Dependencies"
 Cohesion: 0.09
@@ -76,6 +59,10 @@ Nodes (23): dependencies, class-transformer, class-validator, helmet, @nestjs/co
 ### Community 1 - "TypeScript Compiler Setup"
 Cohesion: 0.09
 Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
+
+### Community 2 - "Design Specification: Modular NestJS Backend Setup"
+Cohesion: 0.17
+Nodes (11): 1. Executive Summary, 2. Directory & Architecture Layout, 3.1 Bootstrap Configuration (`src/main.ts`), 3.2 Environment Configuration (`src/config/configuration.ts` & `src/app.module.ts`), 3.3 Database Integration (`src/prisma/`), 3.4 Containerized Database (`docker-compose.yml`), 3. Core Modules & Configuration Details, 4. Environment Variables (`.env.example`) (+3 more)
 
 ### Community 3 - "npm / pnpm Build Scripts"
 Cohesion: 0.12
@@ -87,36 +74,48 @@ Nodes (19): author, description, jest, collectCoverageFrom, coverageDirectory, m
 
 ### Community 5 - "app.module.ts"
 Cohesion: 0.16
-Nodes (7): AppModule, PrismaModule, Module, PrismaService, Injectable, Global, Module
+Nodes (7): AppModule, Module, PrismaModule, Module, PrismaService, Global, Injectable
 
 ### Community 6 - "Build TS Config"
 Cohesion: 0.25
 Nodes (7): exclude, extends, dist, node_modules, **/*spec.ts, test, ./tsconfig.json
 
+### Community 7 - "backend/README.md"
+Cohesion: 0.20
+Nodes (9): Compile and run the project, Deployment, Description, License, Project setup, Resources, Run tests, Stay in touch (+1 more)
+
 ### Community 8 - "devDependencies"
-Cohesion: 0.29
-Nodes (7): devDependencies, @eslint/eslintrc, @nestjs/testing, @types/express, @eslint/eslintrc, @nestjs/testing, @types/express
+Cohesion: 0.04
+Nodes (49): devDependencies, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals, jest (+41 more)
 
 ### Community 9 - "NestJS CLI Settings"
 Cohesion: 0.33
 Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
 
+### Community 10 - "Global Constraints"
+Cohesion: 0.22
+Nodes (8): Global Constraints, NestJS Modular Backend Setup Implementation Plan, Task 1: Initialize NestJS Application with pnpm, Task 2: Environment Configuration Setup, Task 3: Prisma ORM & Database Module Integration, Task 4: Swagger, Security, and Main Application Bootstrap, Task 5: Local Environment Setup & Docker Compose, Task 6: End-to-End Build Verification
+
+### Community 11 - "20260809151942_init_automation_core_tables/migration.sql"
+Cohesion: 0.39
+Nodes (7): "users", "credentials", "execution_logs", "executions", "node_executions", "workflow_versions", "workflows"
+
 ## Knowledge Gaps
-- **97 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+92 more)
+- **122 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+117 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **25 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `devDependencies` connect `devDependencies` to `package.json`, `ts-jest`, `Module 10`, `Module 11`, `@eslint/js`, `eslint-plugin-prettier`, `globals`, `jest`, `@nestjs/cli`, `@nestjs/schematics`, `prettier`, `prisma`, `source-map-support`, `supertest`, `Module 23`, `Module 24`, `Module 25`, `Module 26`, `Module 27`, `Module 28`, `Module 29`, `Module 30`?**
-  _High betweenness centrality (0.291) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `devDependencies` to `package.json`?**
+  _High betweenness centrality (0.192) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `Package Dependencies` to `package.json`?**
-  _High betweenness centrality (0.154) - this node is a cross-community bridge._
+  _High betweenness centrality (0.102) - this node is a cross-community bridge._
 - **Why does `scripts` connect `npm / pnpm Build Scripts` to `package.json`?**
-  _High betweenness centrality (0.116) - this node is a cross-community bridge._
+  _High betweenness centrality (0.077) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _97 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _122 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Package Dependencies` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `TypeScript Compiler Setup` be split into smaller, more focused modules?**
