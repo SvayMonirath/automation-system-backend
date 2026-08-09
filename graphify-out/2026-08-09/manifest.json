@@ -24,10 +24,25 @@
     "ast_hash": "f978610e599fc11b7bd1c606884b51c3",
     "semantic_hash": "f978610e599fc11b7bd1c606884b51c3"
   },
+  "backend/src/app.controller.spec.ts": {
+    "mtime": 1786281432.0693119,
+    "ast_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf",
+    "semantic_hash": "4a1c0e1133dbda6f6e8f3e60d984eddf"
+  },
+  "backend/src/app.controller.ts": {
+    "mtime": 1786281432.0679417,
+    "ast_hash": "3ab0e83b7d93b85ea489ab994ec79ea1",
+    "semantic_hash": "3ab0e83b7d93b85ea489ab994ec79ea1"
+  },
   "backend/src/app.module.ts": {
-    "mtime": 1786290216.415662,
-    "ast_hash": "16dfb334842eb3626adfe8a03f56ac01",
-    "semantic_hash": ""
+    "mtime": 1786284089.4705474,
+    "ast_hash": "dc5ff8c91637040c713daade3c8d5aa1",
+    "semantic_hash": "dc5ff8c91637040c713daade3c8d5aa1"
+  },
+  "backend/src/app.service.ts": {
+    "mtime": 1786281432.0684295,
+    "ast_hash": "cd3fb7836f10de08a725ee1fd4ab36fe",
+    "semantic_hash": "cd3fb7836f10de08a725ee1fd4ab36fe"
   },
   "backend/src/config/configuration.ts": {
     "mtime": 1786281718.9189253,
@@ -68,35 +83,5 @@
     "mtime": 1786281432.0675125,
     "ast_hash": "397a4e7fd9eb228257a07387005fa770",
     "semantic_hash": "397a4e7fd9eb228257a07387005fa770"
-  },
-  "README.md": {
-    "mtime": 1786284386.879116,
-    "ast_hash": "9122bfa05c937f5cc95a235ae04649f4",
-    "semantic_hash": ""
-  },
-  "backend/README.md": {
-    "mtime": 1786281432.066303,
-    "ast_hash": "8e8d8363582979f3debdc321fd7dbe4a",
-    "semantic_hash": ""
-  },
-  "backend/docs/superpowers/plans/2026-08-09-nestjs-setup.md": {
-    "mtime": 1786281353.6502817,
-    "ast_hash": "9678a17d4dd9946913aae39fd99cfc46",
-    "semantic_hash": ""
-  },
-  "backend/docs/superpowers/specs/2026-08-09-nestjs-setup-design.md": {
-    "mtime": 1786281292.8220508,
-    "ast_hash": "89c6baa739d6161be1ee2e46856e8221",
-    "semantic_hash": ""
-  },
-  "backend/pnpm-workspace.yaml": {
-    "mtime": 1786282728.7328475,
-    "ast_hash": "c1d406cd1a4ebeab0113cf8c4900d750",
-    "semantic_hash": ""
-  },
-  "docker-compose.yml": {
-    "mtime": 1786283326.0447726,
-    "ast_hash": "fa009c503005f2b6ab5e9d355fe6fbc3",
-    "semantic_hash": ""
   }
 }
