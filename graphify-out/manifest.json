@@ -1,0 +1,102 @@
+{
+  "backend/eslint.config.mjs": {
+    "mtime": 1786281432.0665095,
+    "ast_hash": "d7647004fcd6fc51a724065fc878a559",
+    "semantic_hash": "d7647004fcd6fc51a724065fc878a559"
+  },
+  "backend/nest-cli.json": {
+    "mtime": 1786281432.0667062,
+    "ast_hash": "b6c9c4b64b7092bea720263a47b574cf",
+    "semantic_hash": "b6c9c4b64b7092bea720263a47b574cf"
+  },
+  "backend/package.json": {
+    "mtime": 1786284093.1070282,
+    "ast_hash": "31a5a038b979a9f5f814ee4f1a4a1650",
+    "semantic_hash": "31a5a038b979a9f5f814ee4f1a4a1650"
+  },
+  "backend/prisma/migrations/20260809135427_initial/migration.sql": {
+    "mtime": 1786283667.2798793,
+    "ast_hash": "8594d76a5e08be132cacaa453b9c0871",
+    "semantic_hash": "8594d76a5e08be132cacaa453b9c0871"
+  },
+  "backend/prisma/migrations/20260809151942_init_automation_core_tables/migration.sql": {
+    "mtime": 1786288782.6791434,
+    "ast_hash": "f978610e599fc11b7bd1c606884b51c3",
+    "semantic_hash": "f978610e599fc11b7bd1c606884b51c3"
+  },
+  "backend/src/app.module.ts": {
+    "mtime": 1786290216.415662,
+    "ast_hash": "16dfb334842eb3626adfe8a03f56ac01",
+    "semantic_hash": ""
+  },
+  "backend/src/config/configuration.ts": {
+    "mtime": 1786281718.9189253,
+    "ast_hash": "ea870e46687659685e9b5b397163604a",
+    "semantic_hash": "ea870e46687659685e9b5b397163604a"
+  },
+  "backend/src/main.ts": {
+    "mtime": 1786282889.1427722,
+    "ast_hash": "be384647c73179355e9eb14dc05e749a",
+    "semantic_hash": "be384647c73179355e9eb14dc05e749a"
+  },
+  "backend/src/prisma/prisma.module.ts": {
+    "mtime": 1786282484.3753934,
+    "ast_hash": "3505a1831c78f0a9475e4ce0f0092410",
+    "semantic_hash": "3505a1831c78f0a9475e4ce0f0092410"
+  },
+  "backend/src/prisma/prisma.service.ts": {
+    "mtime": 1786282446.183873,
+    "ast_hash": "e69ac8ea8de27ee90c559d7dc9c6c61f",
+    "semantic_hash": "e69ac8ea8de27ee90c559d7dc9c6c61f"
+  },
+  "backend/test/app.e2e-spec.ts": {
+    "mtime": 1786281432.0694923,
+    "ast_hash": "91198fa8fc7e238ecc9dacec901d7a15",
+    "semantic_hash": "91198fa8fc7e238ecc9dacec901d7a15"
+  },
+  "backend/test/jest-e2e.json": {
+    "mtime": 1786281432.0691006,
+    "ast_hash": "9f2f5b0e1da31d7b04e205c944e85e8d",
+    "semantic_hash": "9f2f5b0e1da31d7b04e205c944e85e8d"
+  },
+  "backend/tsconfig.build.json": {
+    "mtime": 1786281432.0671244,
+    "ast_hash": "f73d0f011ee462dcdf7f02bbdcde284b",
+    "semantic_hash": "f73d0f011ee462dcdf7f02bbdcde284b"
+  },
+  "backend/tsconfig.json": {
+    "mtime": 1786281432.0675125,
+    "ast_hash": "397a4e7fd9eb228257a07387005fa770",
+    "semantic_hash": "397a4e7fd9eb228257a07387005fa770"
+  },
+  "README.md": {
+    "mtime": 1786284386.879116,
+    "ast_hash": "9122bfa05c937f5cc95a235ae04649f4",
+    "semantic_hash": ""
+  },
+  "backend/README.md": {
+    "mtime": 1786281432.066303,
+    "ast_hash": "8e8d8363582979f3debdc321fd7dbe4a",
+    "semantic_hash": ""
+  },
+  "backend/docs/superpowers/plans/2026-08-09-nestjs-setup.md": {
+    "mtime": 1786281353.6502817,
+    "ast_hash": "9678a17d4dd9946913aae39fd99cfc46",
+    "semantic_hash": ""
+  },
+  "backend/docs/superpowers/specs/2026-08-09-nestjs-setup-design.md": {
+    "mtime": 1786281292.8220508,
+    "ast_hash": "89c6baa739d6161be1ee2e46856e8221",
+    "semantic_hash": ""
+  },
+  "backend/pnpm-workspace.yaml": {
+    "mtime": 1786282728.7328475,
+    "ast_hash": "c1d406cd1a4ebeab0113cf8c4900d750",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1786283326.0447726,
+    "ast_hash": "fa009c503005f2b6ab5e9d355fe6fbc3",
+    "semantic_hash": ""
+  }
+}

@@ -7,12 +7,181 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
+// ==========================================
+// ENUMS
+// ==========================================
+
+enum WorkflowStatus {
+  DRAFT
+  SETUP_REQUIRED
+  READY
+  ACTIVE
+  PAUSED
+  ARCHIVED
+}
+
+enum ExecutionStatus {
+  PENDING
+  RUNNING
+  SUCCESS
+  FAILED
+  TIMED_OUT
+  CANCELLED
+}
+
+enum NodeExecutionStatus {
+  PENDING
+  RUNNING
+  SUCCESS
+  FAILED
+  SKIPPED
+}
+
+enum LogLevel {
+  INFO
+  WARN
+  ERROR
+  DEBUG
+}
+
+// ==========================================
+// MODELS
+// ==========================================
+
+/// Core user entity owning workflows and encrypted credentials
 model User {
   id        String   @id @default(uuid())
   email     String   @unique
   name      String?
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  workflows   Workflow[]
+  credentials Credential[]
 
   @@map("users")
+}
+
+/// Stores workflow metadata and lifecycle state.
+/// Note: The graph definition belongs to WorkflowVersion, not here.
+model Workflow {
+  id             String         @id @default(uuid())
+  userId         String         @map("user_id")
+  name           String
+  description    String?
+  status         WorkflowStatus @default(DRAFT)
+  activeVersionId String?       @unique @map("active_version_id")
+  createdAt      DateTime       @default(now()) @map("created_at")
+  updatedAt      DateTime       @updatedAt @map("updated_at")
+
+  user          User              @relation(fields: [userId], references: [id], onDelete: Cascade)
+  versions      WorkflowVersion[] @relation("WorkflowToVersions")
+  activeVersion WorkflowVersion?  @relation("ActiveVersion", fields: [activeVersionId], references: [id], onDelete: SetNull)
+  executions    Execution[]
+
+  @@map("workflows")
+}
+
+/// Stores immutable workflow definitions as JSON documents.
+model WorkflowVersion {
+  id            String   @id @default(uuid())
+  workflowId    String   @map("workflow_id")
+  versionNumber Int      @map("version_number")
+  schemaVersion Int      @default(1) @map("schema_version")
+
+  /// Document-oriented graph definition: { nodes: [...], connections: [...] }
+  definition    Json
+
+  /// Setup requirements dynamic contract generated from registry specs
+  requirements Json?
+
+  isPublished   Boolean  @default(false) @map("is_published")
+  createdAt     DateTime @default(now()) @map("created_at")
+
+  workflow       Workflow    @relation("WorkflowToVersions", fields: [workflowId], references: [id], onDelete: Cascade)
+  activeFor      Workflow?   @relation("ActiveVersion")
+  executions     Execution[]
+
+  @@unique([workflowId, versionNumber])
+  @@map("workflow_versions")
+}
+
+/// Stores encrypted authentication credentials isolated from workflow JSON.
+model Credential {
+  id             String   @id @default(uuid())
+  userId         String   @map("user_id")
+  connectorType  String   @map("connector_type") // e.g., 'telegram', 'google_sheets', 'gmail'
+  name           String   // Friendly name given by user (e.g. "My Shop Bot")
+
+  /// AES-256-GCM Encrypted payload containing tokens/secrets
+  encryptedData String   @map("encrypted_data")
+
+  /// Safe metadata for UI display (e.g., bot_username, account_email)
+  safeMetadata   Json?    @map("safe_metadata")
+
+  createdAt      DateTime @default(now()) @map("created_at")
+  updatedAt      DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("credentials")
+}
+
+/// Represents a single complete execution run of a specific workflow version.
+model Execution {
+  id                String          @id @default(uuid())
+  workflowId        String          @map("workflow_id")
+  workflowVersionId String          @map("workflow_version_id")
+  status            ExecutionStatus @default(PENDING)
+
+  /// Context input that triggered the run (e.g. raw Telegram payload)
+  triggerPayload    Json?           @map("trigger_payload")
+
+  retryCount        Int             @default(0) @map("retry_count")
+  errorMessage      String?         @map("error_message")
+  startedAt         DateTime?       @map("started_at")
+  completedAt       DateTime?       @map("completed_at")
+  createdAt         DateTime        @default(now()) @map("created_at")
+
+  workflow        Workflow        @relation(fields: [workflowId], references: [id], onDelete: Cascade)
+  workflowVersion WorkflowVersion @relation(fields: [workflowVersionId], references: [id], onDelete: Restrict)
+  nodeExecutions  NodeExecution[]
+  logs            ExecutionLog[]
+
+  @@map("executions")
+}
+
+/// Tracks step-by-step state and inputs/outputs per node execution.
+model NodeExecution {
+  id           String              @id @default(uuid())
+  executionId  String              @map("execution_id")
+  nodeId       String              @map("node_id") // Node ID within the workflow definition graph
+  nodeType     String              @map("node_type")
+  status       NodeExecutionStatus @default(PENDING)
+
+  inputData    Json?               @map("input_data")
+  outputData   Json?               @map("output_data")
+  errorMessage String?             @map("error_message")
+
+  startedAt    DateTime?           @map("started_at")
+  completedAt  DateTime?           @map("completed_at")
+
+  execution Execution @relation(fields: [executionId], references: [id], onDelete: Cascade)
+
+  @@map("node_executions")
+}
+
+/// Sanitized runtime execution logs (no sensitive credential tokens allowed).
+model ExecutionLog {
+  id          String   @id @default(uuid())
+  executionId String   @map("execution_id")
+  nodeId      String?  @map("node_id")
+  level       LogLevel @default(INFO)
+  message     String
+  details     Json?
+  timestamp   DateTime @default(now())
+
+  execution Execution @relation(fields: [executionId], references: [id], onDelete: Cascade)
+
+  @@map("execution_logs")
 }
