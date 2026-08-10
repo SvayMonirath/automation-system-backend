@@ -1,11 +1,11 @@
 # Graph Report - Automation_System  (2026-08-10)
 
 ## Corpus Check
-- 30 files · ~6,340 words
+- 27 files · ~5,818 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 280 nodes · 330 edges · 20 communities (18 shown, 2 thin omitted)
+- 270 nodes · 323 edges · 39 communities (16 shown, 23 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
@@ -15,7 +15,7 @@
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- Package Dependencies
+- dependencies
 - TypeScript Compiler Setup
 - Design Specification: Modular NestJS Backend Setup
 - npm / pnpm Build Scripts
@@ -30,10 +30,29 @@
 - README.md
 - registry.service.ts
 - CreateWorkflowDto
-- Workspace Rule: Premium Custom Terminal UI/UX & Output Design
-- Workspace Rule: Advanced UX/UI Terminal Formatting & Chat Separation
-- Workspace Rule: Interactive CLI Change Tracking & Diffs
-- Workspace Instructions & Custom Terminal UX
+- eslint-config-prettier
+- @eslint/eslintrc
+- Workspace Rule: Inline Chat Code Changes Display
+- @eslint/js
+- eslint-plugin-prettier
+- globals
+- @nestjs/cli
+- @nestjs/schematics
+- @nestjs/testing
+- prettier
+- prisma
+- source-map-support
+- supertest
+- ts-jest
+- ts-node
+- tsconfig-paths
+- @types/express
+- @types/jest
+- @types/node
+- @types/supertest
+- @types/swagger-ui-express
+- typescript
+- typescript-eslint
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
@@ -56,11 +75,11 @@
 ## Import Cycles
 - None detected.
 
-## Communities (20 total, 2 thin omitted)
+## Communities (39 total, 23 thin omitted)
 
-### Community 0 - "Package Dependencies"
-Cohesion: 0.09
-Nodes (23): dependencies, class-transformer, class-validator, helmet, @nestjs/common, @nestjs/config, @nestjs/core, @nestjs/platform-express (+15 more)
+### Community 0 - "dependencies"
+Cohesion: 0.08
+Nodes (25): dependencies, class-transformer, class-validator, helmet, @nestjs/common, @nestjs/config, @nestjs/core, @nestjs/platform-express (+17 more)
 
 ### Community 1 - "TypeScript Compiler Setup"
 Cohesion: 0.09
@@ -91,8 +110,8 @@ Cohesion: 0.20
 Nodes (9): Compile and run the project, Deployment, Description, License, Project setup, Resources, Run tests, Stay in touch (+1 more)
 
 ### Community 8 - "devDependencies"
-Cohesion: 0.04
-Nodes (49): devDependencies, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals, jest (+41 more)
+Cohesion: 0.29
+Nodes (7): devDependencies, eslint, jest, ts-loader, eslint, jest, ts-loader
 
 ### Community 9 - "NestJS CLI Settings"
 Cohesion: 0.33
@@ -114,36 +133,28 @@ Nodes (16): ApiOperation, ApiQuery, ApiTags, CONNECTOR_REGISTRY, NODE_REGISTRY, 
 Cohesion: 0.18
 Nodes (12): ApiProperty, ApiPropertyOptional, CreateWorkflowDto, UpdateWorkflowDraftDto, UpdateWorkflowStatusDto, Injectable, WorkflowService, IsEnum (+4 more)
 
-### Community 15 - "Workspace Rule: Premium Custom Terminal UI/UX & Output Design"
-Cohesion: 0.29
-Nodes (6): 1. Response Header & Phase Banner, 2. Action Logs & Tool Call Badges, 3. Interactive File Changes Table, 4. Status Badges, 5. Turn Footer & Next Steps Box, Workspace Rule: Premium Custom Terminal UI/UX & Output Design
-
-### Community 16 - "Workspace Rule: Advanced UX/UI Terminal Formatting & Chat Separation"
+### Community 17 - "Workspace Rule: Inline Chat Code Changes Display"
 Cohesion: 0.33
-Nodes (5): 1. Action Badges & Color Icons, 2. Clear Chat Turn Separators, 3. Structured Section Headers, 4. Clickable File Links & Diffs, Workspace Rule: Advanced UX/UI Terminal Formatting & Chat Separation
-
-### Community 17 - "Workspace Rule: Interactive CLI Change Tracking & Diffs"
-Cohesion: 0.50
-Nodes (3): File Change Summaries, Verification, Workspace Rule: Interactive CLI Change Tracking & Diffs
+Nodes (5): 📄 [`backend/src/main.ts`](file:///Users/sorpheatepy/Library/CloudStorage/OneDrive-CambodiaAcademyofDigitalTechnology/NextGen%20Engagment/Automation_System/backend/src/main.ts#L13-L20), 🛠️ Code Changes Made In This Turn, Example Format:, MANDATORY: In-Chat Code Diffs For Every Edit, Workspace Rule: Inline Chat Code Changes Display
 
 ## Knowledge Gaps
-- **135 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+130 more)
+- **127 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+122 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **2 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **23 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `devDependencies` connect `devDependencies` to `package.json`?**
-  _High betweenness centrality (0.103) - this node is a cross-community bridge._
-- **Why does `dependencies` connect `Package Dependencies` to `package.json`?**
-  _High betweenness centrality (0.054) - this node is a cross-community bridge._
+- **Why does `devDependencies` connect `devDependencies` to `package.json`, `eslint-config-prettier`, `@eslint/eslintrc`, `@eslint/js`, `eslint-plugin-prettier`, `globals`, `@nestjs/cli`, `@nestjs/schematics`, `@nestjs/testing`, `prettier`, `prisma`, `source-map-support`, `supertest`, `ts-jest`, `ts-node`, `tsconfig-paths`, `@types/express`, `@types/jest`, `@types/node`, `@types/supertest`, `@types/swagger-ui-express`, `typescript`, `typescript-eslint`?**
+  _High betweenness centrality (0.119) - this node is a cross-community bridge._
+- **Why does `dependencies` connect `dependencies` to `package.json`?**
+  _High betweenness centrality (0.066) - this node is a cross-community bridge._
 - **Why does `scripts` connect `npm / pnpm Build Scripts` to `package.json`?**
-  _High betweenness centrality (0.041) - this node is a cross-community bridge._
+  _High betweenness centrality (0.046) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
-  _135 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Package Dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
+  _127 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `dependencies` be split into smaller, more focused modules?**
+  _Cohesion score 0.08 - nodes in this community are weakly interconnected._
 - **Should `TypeScript Compiler Setup` be split into smaller, more focused modules?**
   _Cohesion score 0.08695652173913043 - nodes in this community are weakly interconnected._
 - **Should `npm / pnpm Build Scripts` be split into smaller, more focused modules?**
