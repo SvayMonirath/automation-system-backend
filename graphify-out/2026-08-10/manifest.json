@@ -25,8 +25,8 @@
     "semantic_hash": "f978610e599fc11b7bd1c606884b51c3"
   },
   "backend/src/app.module.ts": {
-    "mtime": 1786290915.9672751,
-    "ast_hash": "16dfb334842eb3626adfe8a03f56ac01",
+    "mtime": 1786292972.5726562,
+    "ast_hash": "4cd1cfc2ad35edc3970c9f61c8187a78",
     "semantic_hash": ""
   },
   "backend/src/config/configuration.ts": {
@@ -35,9 +35,9 @@
     "semantic_hash": "ea870e46687659685e9b5b397163604a"
   },
   "backend/src/main.ts": {
-    "mtime": 1786282889.1427722,
-    "ast_hash": "be384647c73179355e9eb14dc05e749a",
-    "semantic_hash": "be384647c73179355e9eb14dc05e749a"
+    "mtime": 1786341220.951308,
+    "ast_hash": "f98bec19bb35ee5a30594570b744bf5c",
+    "semantic_hash": ""
   },
   "backend/src/prisma/prisma.module.ts": {
     "mtime": 1786282484.3753934,
@@ -97,6 +97,66 @@
   "docker-compose.yml": {
     "mtime": 1786283326.0447726,
     "ast_hash": "fa009c503005f2b6ab5e9d355fe6fbc3",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/constants/connector-registry.constant.ts": {
+    "mtime": 1786292009.1849003,
+    "ast_hash": "a50de47b0dfe727612b4f060a5c6e470",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/constants/node-registry.constant.ts": {
+    "mtime": 1786292331.5078251,
+    "ast_hash": "66131ac93a9f7c3fcbea63de94121298",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/interfaces/registry.interface.ts": {
+    "mtime": 1786291808.0285175,
+    "ast_hash": "65ae2fc6fc32687ebf3a6437648e98f7",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/registry.controller.ts": {
+    "mtime": 1786292798.5030358,
+    "ast_hash": "a2da57e28ce50408ad4b2cdf7074c6d7",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/registry.module.ts": {
+    "mtime": 1786292935.9203956,
+    "ast_hash": "aa483b82668eaadbb0639380ceccf8f4",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/registry/registry.service.ts": {
+    "mtime": 1786292731.0525393,
+    "ast_hash": "a59281c4576996d9dbb4826cb64ec08d",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/workflow/dto/workflow.dto.ts": {
+    "mtime": 1786340509.4501045,
+    "ast_hash": "324e2ec786e4deb784cf0a3934e312a0",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/workflow/workflow.service.ts": {
+    "mtime": 1786340825.5985274,
+    "ast_hash": "3eae76b35e8a74a5f3dc55dd5f224e3a",
+    "semantic_hash": ""
+  },
+  ".agents/rules/cli_diff_summary.md": {
+    "mtime": 1786341426.4390154,
+    "ast_hash": "f0c8d23068aac450b4bbad48e03b0025",
+    "semantic_hash": ""
+  },
+  ".agents/rules/custom_terminal_ui.md": {
+    "mtime": 1786341789.6901994,
+    "ast_hash": "ff9b0bb016e7baa840a56e1d5dc7d04b",
+    "semantic_hash": ""
+  },
+  ".agents/rules/ux_ui_formatting.md": {
+    "mtime": 1786341718.1054363,
+    "ast_hash": "cfd28bdf2879243525f69639b9617339",
+    "semantic_hash": ""
+  },
+  "AGENTS.md": {
+    "mtime": 1786341791.773432,
+    "ast_hash": "3c25470bc713746fc0e2ad3bc9e4aa69",
     "semantic_hash": ""
   }
 }

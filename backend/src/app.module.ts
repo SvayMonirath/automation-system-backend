@@ -3,6 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import configuration from './config/configuration';
 import { PrismaModule } from './prisma/prisma.module';
 import { RegistryModule } from './modules/registry/registry.module';
+import { WorkflowModule } from './modules/workflow/workflow.module';
 
 @Module({
   imports: [
@@ -13,6 +14,7 @@ import { RegistryModule } from './modules/registry/registry.module';
     }),
     PrismaModule,
     RegistryModule,
+    WorkflowModule,
   ],
   controllers: [],
   providers: [],
