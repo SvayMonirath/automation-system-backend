@@ -1437,7 +1437,7 @@
       "label": "AppModule",
       "file_type": "code",
       "source_file": "backend/src/app.module.ts",
-      "source_location": "L20",
+      "source_location": "L22",
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
@@ -1628,7 +1628,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "apitags",
+      "id": "backend_src_modules_registry_registry_controller_ts_apitags",
       "community": 13,
       "community_name": "registry.service.ts",
       "norm_label": "apitags"
@@ -1639,7 +1639,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "controller",
+      "id": "backend_src_modules_registry_registry_controller_ts_controller",
       "community": 13,
       "community_name": "registry.service.ts",
       "norm_label": "controller"
@@ -1650,7 +1650,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "get",
+      "id": "backend_src_modules_registry_registry_controller_ts_get",
       "community": 13,
       "community_name": "registry.service.ts",
       "norm_label": "get"
@@ -1661,7 +1661,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "apioperation",
+      "id": "backend_src_modules_registry_registry_controller_ts_apioperation",
       "community": 13,
       "community_name": "registry.service.ts",
       "norm_label": "apioperation"
@@ -1694,7 +1694,7 @@
       "source_file": "",
       "source_location": "",
       "_origin": "ast",
-      "id": "param",
+      "id": "backend_src_modules_registry_registry_controller_ts_param",
       "community": 13,
       "community_name": "registry.service.ts",
       "norm_label": "param"
@@ -1897,7 +1897,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_dto_workflow_dto",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "workflow.dto.ts"
     },
     {
@@ -1910,7 +1910,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_dto_workflow_dto_createworkflowdto",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "createworkflowdto"
     },
     {
@@ -1921,7 +1921,7 @@
       "_origin": "ast",
       "id": "apiproperty",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "apiproperty"
     },
     {
@@ -1932,7 +1932,7 @@
       "_origin": "ast",
       "id": "isstring",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "isstring"
     },
     {
@@ -1943,7 +1943,7 @@
       "_origin": "ast",
       "id": "isnotempty",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "isnotempty"
     },
     {
@@ -1954,7 +1954,7 @@
       "_origin": "ast",
       "id": "apipropertyoptional",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "apipropertyoptional"
     },
     {
@@ -1965,7 +1965,7 @@
       "_origin": "ast",
       "id": "isoptional",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "isoptional"
     },
     {
@@ -1976,7 +1976,7 @@
       "_origin": "ast",
       "id": "isobject",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "isobject"
     },
     {
@@ -1989,7 +1989,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowdraftdto",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "updateworkflowdraftdto"
     },
     {
@@ -2002,7 +2002,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowstatusdto",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "updateworkflowstatusdto"
     },
     {
@@ -2013,8 +2013,273 @@
       "_origin": "ast",
       "id": "isenum",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "isenum"
+    },
+    {
+      "label": "workflow.controller.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller",
+      "community": 14,
+      "community_name": "WorkflowService",
+      "norm_label": "workflow.controller.ts"
+    },
+    {
+      "label": "WorkflowController",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L21",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "workflowcontroller"
+    },
+    {
+      "label": "ApiTags",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_ts_apitags",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "apitags"
+    },
+    {
+      "label": "Controller",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_ts_controller",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "controller"
+    },
+    {
+      "label": "Post",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "post",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "post"
+    },
+    {
+      "label": "ApiOperation",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "apioperation"
+    },
+    {
+      "label": "Request",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "request",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "request"
+    },
+    {
+      "label": "Body",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "body",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "body"
+    },
+    {
+      "label": "Get",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_ts_get",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "get"
+    },
+    {
+      "label": "Param",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_ts_param",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "param"
+    },
+    {
+      "label": "Put",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "put",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "put"
+    },
+    {
+      "label": "Patch",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "patch",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": "patch"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L22",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_constructor",
+      "community": 14,
+      "community_name": "WorkflowService",
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".getUserId()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L25",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".getuserid()"
+    },
+    {
+      "label": ".createWorkflow()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L31",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".createworkflow()"
+    },
+    {
+      "label": ".getUserWorkflows()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L37",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".getuserworkflows()"
+    },
+    {
+      "label": ".getWorkflowById()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L43",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".getworkflowbyid()"
+    },
+    {
+      "label": ".updateWorkflowDraft()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L49",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".updateworkflowdraft()"
+    },
+    {
+      "label": ".publishWorkflowVersion()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L65",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".publishworkflowversion()"
+    },
+    {
+      "label": ".updateWorkflowStatus()",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L73",
+      "_callable": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "community": 39,
+      "community_name": "WorkflowController",
+      "norm_label": ".updateworkflowstatus()"
+    },
+    {
+      "label": "workflow.module.ts",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_module",
+      "community": 14,
+      "community_name": "WorkflowService",
+      "norm_label": "workflow.module.ts"
+    },
+    {
+      "label": "WorkflowModule",
+      "file_type": "code",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L12",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_module_workflowmodule",
+      "community": 5,
+      "community_name": "app.module.ts",
+      "norm_label": "workflowmodule"
+    },
+    {
+      "label": "Module",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "_origin": "ast",
+      "id": "backend_src_modules_workflow_workflow_module_ts_module",
+      "community": 5,
+      "community_name": "app.module.ts",
+      "norm_label": "module"
     },
     {
       "label": "workflow.service.ts",
@@ -2024,7 +2289,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "workflow.service.ts"
     },
     {
@@ -2037,7 +2302,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "workflowservice"
     },
     {
@@ -2048,7 +2313,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_ts_injectable",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": "injectable"
     },
     {
@@ -2059,8 +2324,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_constructor",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": ".constructor()"
     },
     {
@@ -2072,7 +2337,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_createworkflow",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".createworkflow()"
     },
     {
@@ -2084,7 +2349,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_getuserworkflows",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".getuserworkflows()"
     },
     {
@@ -2096,7 +2361,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_getworkflowbyid",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".getworkflowbyid()"
     },
     {
@@ -2108,7 +2373,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_updateworkflowdraft",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".updateworkflowdraft()"
     },
     {
@@ -2120,7 +2385,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_publishworkflowversion",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".publishworkflowversion()"
     },
     {
@@ -2132,7 +2397,7 @@
       "_origin": "ast",
       "id": "backend_src_modules_workflow_workflow_service_workflowservice_updateworkflowstatus",
       "community": 14,
-      "community_name": "CreateWorkflowDto",
+      "community_name": "WorkflowService",
       "norm_label": ".updateworkflowstatus()"
     },
     {
@@ -2142,8 +2407,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_module",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "prisma.module.ts"
     },
     {
@@ -2155,8 +2420,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_module_prismamodule",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "prismamodule"
     },
     {
@@ -2166,8 +2431,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "global",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "global"
     },
     {
@@ -2177,8 +2442,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_module_ts_module",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "module"
     },
     {
@@ -2188,8 +2453,8 @@
       "source_location": "L1",
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_service",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "prisma.service.ts"
     },
     {
@@ -2201,8 +2466,8 @@
       "_callable_class": true,
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_service_prismaservice",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "prismaservice"
     },
     {
@@ -2212,8 +2477,8 @@
       "source_location": "",
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_service_ts_injectable",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": "injectable"
     },
     {
@@ -2224,8 +2489,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_service_prismaservice_onmoduleinit",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": ".onmoduleinit()"
     },
     {
@@ -2236,8 +2501,8 @@
       "_callable": true,
       "_origin": "ast",
       "id": "backend_src_prisma_prisma_service_prismaservice_onmoduledestroy",
-      "community": 5,
-      "community_name": "app.module.ts",
+      "community": 14,
+      "community_name": "WorkflowService",
       "norm_label": ".onmoduledestroy()"
     },
     {
@@ -4509,7 +4774,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.module.ts",
-      "source_location": "L20",
+      "source_location": "L22",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_app_module",
@@ -4550,6 +4815,30 @@
       "_origin": "ast",
       "source": "backend_src_app_module",
       "target": "backend_src_modules_registry_registry_module_registrymodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_app_module",
+      "target": "backend_src_modules_workflow_workflow_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/app.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_app_module",
+      "target": "backend_src_modules_workflow_workflow_module_workflowmodule",
       "confidence_score": 1.0
     },
     {
@@ -4604,7 +4893,7 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/app.module.ts",
-      "source_location": "L7",
+      "source_location": "L8",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
@@ -5025,18 +5314,6 @@
       "confidence_score": 1.0
     },
     {
-      "relation": "references",
-      "confidence": "EXTRACTED",
-      "source_file": "backend/src/modules/registry/registry.controller.ts",
-      "source_location": "L6",
-      "weight": 1.0,
-      "context": "decorator",
-      "_origin": "ast",
-      "source": "backend_src_modules_registry_registry_controller_registrycontroller",
-      "target": "apitags",
-      "confidence_score": 1.0
-    },
-    {
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/registry/registry.controller.ts",
@@ -5095,12 +5372,24 @@
       "relation": "references",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/registry/registry.controller.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_registry_registry_controller_registrycontroller",
+      "target": "backend_src_modules_registry_registry_controller_ts_apitags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/registry/registry.controller.ts",
       "source_location": "L7",
       "weight": 1.0,
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller",
-      "target": "controller",
+      "target": "backend_src_modules_registry_registry_controller_ts_controller",
       "confidence_score": 1.0
     },
     {
@@ -5124,7 +5413,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getconnector",
-      "target": "get",
+      "target": "backend_src_modules_registry_registry_controller_ts_get",
       "confidence_score": 1.0
     },
     {
@@ -5136,7 +5425,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getconnectors",
-      "target": "get",
+      "target": "backend_src_modules_registry_registry_controller_ts_get",
       "confidence_score": 1.0
     },
     {
@@ -5148,7 +5437,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getnode",
-      "target": "get",
+      "target": "backend_src_modules_registry_registry_controller_ts_get",
       "confidence_score": 1.0
     },
     {
@@ -5160,7 +5449,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getnodes",
-      "target": "get",
+      "target": "backend_src_modules_registry_registry_controller_ts_get",
       "confidence_score": 1.0
     },
     {
@@ -5172,7 +5461,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getconnector",
-      "target": "apioperation",
+      "target": "backend_src_modules_registry_registry_controller_ts_apioperation",
       "confidence_score": 1.0
     },
     {
@@ -5184,7 +5473,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getconnectors",
-      "target": "apioperation",
+      "target": "backend_src_modules_registry_registry_controller_ts_apioperation",
       "confidence_score": 1.0
     },
     {
@@ -5196,7 +5485,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getnode",
-      "target": "apioperation",
+      "target": "backend_src_modules_registry_registry_controller_ts_apioperation",
       "confidence_score": 1.0
     },
     {
@@ -5208,7 +5497,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getnodes",
-      "target": "apioperation",
+      "target": "backend_src_modules_registry_registry_controller_ts_apioperation",
       "confidence_score": 1.0
     },
     {
@@ -5244,7 +5533,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getconnector",
-      "target": "param",
+      "target": "backend_src_modules_registry_registry_controller_ts_param",
       "confidence_score": 1.0
     },
     {
@@ -5256,7 +5545,7 @@
       "context": "decorator",
       "_origin": "ast",
       "source": "backend_src_modules_registry_registry_controller_registrycontroller_getnode",
-      "target": "param",
+      "target": "backend_src_modules_registry_registry_controller_ts_param",
       "confidence_score": 1.0
     },
     {
@@ -5493,6 +5782,18 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_dto_workflow_dto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/workflow/workflow.service.ts",
       "source_location": "L7",
       "weight": 1.0,
@@ -5571,6 +5872,30 @@
       "_origin": "ast",
       "source": "backend_src_modules_workflow_dto_workflow_dto_createworkflowdto",
       "target": "isstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_createworkflowdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_createworkflowdto",
       "confidence_score": 1.0
     },
     {
@@ -5685,6 +6010,30 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowdraftdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowdraftdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/workflow/workflow.service.ts",
       "source_location": "L7",
       "weight": 1.0,
@@ -5721,6 +6070,30 @@
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L13",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowstatusdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowstatusdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
       "source_file": "backend/src/modules/workflow/workflow.service.ts",
       "source_location": "L7",
       "weight": 1.0,
@@ -5739,6 +6112,704 @@
       "_origin": "ast",
       "source": "backend_src_modules_workflow_workflow_service_workflowservice_updateworkflowstatus",
       "target": "backend_src_modules_workflow_dto_workflow_dto_updateworkflowstatusdto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_workflow_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_modules_workflow_workflow_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apitags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_controller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "post",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L30",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L70",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_apioperation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L74",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "request",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L31",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L52",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "body",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L35",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_param",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L65",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_param",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_param",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L75",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "backend_src_modules_workflow_workflow_controller_ts_param",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "put",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L69",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "patch",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "context": "parameter_type",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L22",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_constructor",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L55",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserid",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L32",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_createworkflow",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_createworkflow"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getuserworkflows",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_getuserworkflows"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_getworkflowbyid",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_getworkflowbyid"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowdraft",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_updateworkflowdraft"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L66",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_publishworkflowversion",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_publishworkflowversion"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/src/modules/workflow/workflow.controller.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_controller_workflowcontroller_updateworkflowstatus",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice_updateworkflowstatus"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_modules_workflow_workflow_module_workflowmodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_modules_workflow_workflow_service",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_modules_workflow_workflow_service_workflowservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_prisma_prisma_module",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module",
+      "target": "backend_src_prisma_prisma_module_prismamodule",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/src/modules/workflow/workflow.module.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "context": "decorator",
+      "_origin": "ast",
+      "source": "backend_src_modules_workflow_workflow_module_workflowmodule",
+      "target": "backend_src_modules_workflow_workflow_module_ts_module",
       "confidence_score": 1.0
     },
     {
@@ -6717,5 +7788,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c966570d0ad0fc93dfbec1af4421a216c6582d17"
+  "built_at_commit": "195aaa8f6bb6de8bddf253ff7f862367a251b037"
 }

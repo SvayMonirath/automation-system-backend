@@ -1,16 +1,16 @@
 # Graph Report - Automation_System  (2026-08-10)
 
 ## Corpus Check
-- 27 files · ~5,818 words
+- 29 files · ~6,075 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 270 nodes · 323 edges · 39 communities (16 shown, 23 thin omitted)
-- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 5 edges (avg confidence: 0.8)
+- 293 nodes · 391 edges · 40 communities (17 shown, 23 thin omitted)
+- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `c966570d`
+- Built from commit: `195aaa8f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -29,7 +29,7 @@
 - 20260809151942_init_automation_core_tables/migration.sql
 - README.md
 - registry.service.ts
-- CreateWorkflowDto
+- WorkflowService
 - eslint-config-prettier
 - @eslint/eslintrc
 - Workspace Rule: Inline Chat Code Changes Display
@@ -53,18 +53,19 @@
 - @types/swagger-ui-express
 - typescript
 - typescript-eslint
+- WorkflowController
 
 ## God Nodes (most connected - your core abstractions)
 1. `compilerOptions` - 22 edges
 2. `scripts` - 17 edges
-3. `RegistryService` - 10 edges
-4. `RegistryController` - 9 edges
-5. `CreateWorkflowDto` - 9 edges
-6. `UpdateWorkflowDraftDto` - 9 edges
-7. `WorkflowService` - 9 edges
-8. `jest` - 8 edges
-9. `PrismaService` - 7 edges
-10. `Global Constraints` - 7 edges
+3. `WorkflowController` - 12 edges
+4. `WorkflowService` - 12 edges
+5. `CreateWorkflowDto` - 11 edges
+6. `UpdateWorkflowDraftDto` - 11 edges
+7. `RegistryService` - 10 edges
+8. `RegistryController` - 9 edges
+9. `jest` - 8 edges
+10. `UpdateWorkflowStatusDto` - 7 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `"credentials"` --references--> `"users"`  [EXTRACTED]
@@ -75,7 +76,7 @@
 ## Import Cycles
 - None detected.
 
-## Communities (39 total, 23 thin omitted)
+## Communities (40 total, 23 thin omitted)
 
 ### Community 0 - "dependencies"
 Cohesion: 0.08
@@ -98,8 +99,8 @@ Cohesion: 0.10
 Nodes (19): author, description, jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment (+11 more)
 
 ### Community 5 - "app.module.ts"
-Cohesion: 0.13
-Nodes (9): AppModule, Module, RegistryModule, Module, PrismaModule, Module, PrismaService, Injectable (+1 more)
+Cohesion: 0.22
+Nodes (6): AppModule, Module, RegistryModule, Module, Module, WorkflowModule
 
 ### Community 6 - "Build TS Config"
 Cohesion: 0.25
@@ -127,15 +128,19 @@ Nodes (7): "users", "credentials", "execution_logs", "executions", "node_executi
 
 ### Community 13 - "registry.service.ts"
 Cohesion: 0.14
-Nodes (16): ApiOperation, ApiQuery, ApiTags, CONNECTOR_REGISTRY, NODE_REGISTRY, ConnectorSpec, NodeParamSchema, NodeSpec (+8 more)
+Nodes (16): ApiQuery, CONNECTOR_REGISTRY, NODE_REGISTRY, ConnectorSpec, NodeParamSchema, NodeSpec, NodeType, RegistryController (+8 more)
 
-### Community 14 - "CreateWorkflowDto"
-Cohesion: 0.18
-Nodes (12): ApiProperty, ApiPropertyOptional, CreateWorkflowDto, UpdateWorkflowDraftDto, UpdateWorkflowStatusDto, Injectable, WorkflowService, IsEnum (+4 more)
+### Community 14 - "WorkflowService"
+Cohesion: 0.11
+Nodes (17): ApiProperty, ApiPropertyOptional, CreateWorkflowDto, UpdateWorkflowDraftDto, UpdateWorkflowStatusDto, Injectable, WorkflowService, PrismaModule (+9 more)
 
 ### Community 17 - "Workspace Rule: Inline Chat Code Changes Display"
 Cohesion: 0.33
 Nodes (5): 📄 [`backend/src/main.ts`](file:///Users/sorpheatepy/Library/CloudStorage/OneDrive-CambodiaAcademyofDigitalTechnology/NextGen%20Engagment/Automation_System/backend/src/main.ts#L13-L20), 🛠️ Code Changes Made In This Turn, Example Format:, MANDATORY: In-Chat Code Diffs For Every Edit, Workspace Rule: Inline Chat Code Changes Display
+
+### Community 39 - "WorkflowController"
+Cohesion: 0.26
+Nodes (11): ApiOperation, ApiTags, Controller, Get, Param, WorkflowController, Body, Patch (+3 more)
 
 ## Knowledge Gaps
 - **127 isolated node(s):** `$schema`, `collection`, `sourceRoot`, `deleteOutDir`, `name` (+122 more)
@@ -146,11 +151,11 @@ Nodes (5): 📄 [`backend/src/main.ts`](file:///Users/sorpheatepy/Library/CloudS
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `devDependencies` connect `devDependencies` to `package.json`, `eslint-config-prettier`, `@eslint/eslintrc`, `@eslint/js`, `eslint-plugin-prettier`, `globals`, `@nestjs/cli`, `@nestjs/schematics`, `@nestjs/testing`, `prettier`, `prisma`, `source-map-support`, `supertest`, `ts-jest`, `ts-node`, `tsconfig-paths`, `@types/express`, `@types/jest`, `@types/node`, `@types/supertest`, `@types/swagger-ui-express`, `typescript`, `typescript-eslint`?**
-  _High betweenness centrality (0.119) - this node is a cross-community bridge._
+  _High betweenness centrality (0.101) - this node is a cross-community bridge._
 - **Why does `dependencies` connect `dependencies` to `package.json`?**
-  _High betweenness centrality (0.066) - this node is a cross-community bridge._
+  _High betweenness centrality (0.056) - this node is a cross-community bridge._
 - **Why does `scripts` connect `npm / pnpm Build Scripts` to `package.json`?**
-  _High betweenness centrality (0.046) - this node is a cross-community bridge._
+  _High betweenness centrality (0.039) - this node is a cross-community bridge._
 - **What connects `$schema`, `collection`, `sourceRoot` to the rest of the system?**
   _127 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `dependencies` be split into smaller, more focused modules?**

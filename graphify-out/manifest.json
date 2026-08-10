@@ -10,7 +10,7 @@
     "semantic_hash": "b6c9c4b64b7092bea720263a47b574cf"
   },
   "backend/package.json": {
-    "mtime": 1786342213.1781976,
+    "mtime": 1786343751.8960488,
     "ast_hash": "7e6af93c7242869fb08aa32dbbe17da2",
     "semantic_hash": ""
   },
@@ -25,8 +25,8 @@
     "semantic_hash": "f978610e599fc11b7bd1c606884b51c3"
   },
   "backend/src/app.module.ts": {
-    "mtime": 1786341917.920905,
-    "ast_hash": "4cd1cfc2ad35edc3970c9f61c8187a78",
+    "mtime": 1786343751.899676,
+    "ast_hash": "4b72e03d73ecc2784a3ba677e5cbe463",
     "semantic_hash": ""
   },
   "backend/src/config/configuration.ts": {
@@ -35,8 +35,8 @@
     "semantic_hash": "ea870e46687659685e9b5b397163604a"
   },
   "backend/src/main.ts": {
-    "mtime": 1786341974.3670256,
-    "ast_hash": "53327888481e0a900b88b8fe23388eb9",
+    "mtime": 1786343751.900459,
+    "ast_hash": "5e8046c123a20fa434be2c1b12a50861",
     "semantic_hash": ""
   },
   "backend/src/prisma/prisma.module.ts": {
@@ -130,18 +130,28 @@
     "semantic_hash": ""
   },
   "backend/src/modules/workflow/dto/workflow.dto.ts": {
-    "mtime": 1786340509.4501045,
+    "mtime": 1786343751.9017286,
     "ast_hash": "324e2ec786e4deb784cf0a3934e312a0",
     "semantic_hash": ""
   },
   "backend/src/modules/workflow/workflow.service.ts": {
-    "mtime": 1786340825.5985274,
+    "mtime": 1786343751.903345,
     "ast_hash": "3eae76b35e8a74a5f3dc55dd5f224e3a",
     "semantic_hash": ""
   },
   ".agents/rules/cli_diff_summary.md": {
-    "mtime": 1786341972.456679,
+    "mtime": 1786343751.894305,
     "ast_hash": "9e92239e07361bebdc5459ec2ee6a3ca",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/workflow/workflow.controller.ts": {
+    "mtime": 1786343751.9022982,
+    "ast_hash": "e1d1388bfd4fd828ff4290e1e8947065",
+    "semantic_hash": ""
+  },
+  "backend/src/modules/workflow/workflow.module.ts": {
+    "mtime": 1786343751.9027822,
+    "ast_hash": "8850229a9c6f73c86a0864e0e9147cff",
     "semantic_hash": ""
   }
 }
