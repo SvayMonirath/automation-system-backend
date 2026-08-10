@@ -38,3 +38,6 @@ coverage/
 *_DOC*
 *_DOC.md
 *_DOC/
+
+# Graphify
+graphify-out/
