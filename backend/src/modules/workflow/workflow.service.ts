@@ -10,10 +10,14 @@ import {
   UpdateWorkflowStatusDto,
 } from './dto/workflow.dto';
 import { WorkflowStatus } from '@prisma/client';
+import { ValidationService } from './../validation/validation.service';
 
 @Injectable()
 export class WorkflowService {
-  constructor(private readonly prisma: PrismaService) {}
+  constructor(
+    private readonly prisma: PrismaService,
+    private readonly validationService: ValidationService,
+  ) {}
 
   /**
    * Create a new draft workflow along with its initial version (Version 1)
@@ -145,6 +149,18 @@ export class WorkflowService {
 
     if (!latestVersion) {
       throw new BadRequestException('No version definition found to publish.');
+    }
+
+    const validationResult = await this.validationService.validateWorkflowGraph(
+      userId,
+      latestVersion.definition as Record<string, any>,
+    );
+
+    if (!validationResult.isValid) {
+      throw new BadRequestException({
+        message: 'Workflow draft failed validation checks.',
+        errors: validationResult.errors,
+      });
     }
 
     return this.prisma.$transaction(async (tx) => {

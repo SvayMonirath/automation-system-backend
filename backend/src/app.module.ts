@@ -4,6 +4,7 @@ import configuration from './config/configuration';
 import { PrismaModule } from './prisma/prisma.module';
 import { RegistryModule } from './modules/registry/registry.module';
 import { WorkflowModule } from './modules/workflow/workflow.module';
+import { ValidationModule } from './modules/validation/validation.module';
 
 @Module({
   imports: [
@@ -15,6 +16,7 @@ import { WorkflowModule } from './modules/workflow/workflow.module';
     PrismaModule,
     RegistryModule,
     WorkflowModule,
+    ValidationModule,
   ],
   controllers: [],
   providers: [],
