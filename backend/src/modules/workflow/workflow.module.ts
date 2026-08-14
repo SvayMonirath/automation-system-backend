@@ -3,6 +3,7 @@ import { PrismaModule } from 'src/prisma/prisma.module';
 import { PrismaService } from 'src/prisma/prisma.service';
 import { ValidationModule } from '../validation/validation.module';
 import { WorkflowController } from './workflow.controller';
+import { WorkflowService } from './workflow.service';
 
 import { WorkflowExecutionWorker } from '../worker/workflow-execution.worker';
 import { ExecutionContextManager } from './../worker/execution-context.manager';
@@ -24,6 +25,7 @@ import { EmailNotificationProcessor } from '../worker/processors/email-notificat
   imports: [PrismaModule, ValidationModule],
   controllers: [WorkflowController],
   providers: [
+    WorkflowService,
     PrismaService,
     WorkflowExecutionWorker,
     ExecutionContextManager,
@@ -41,6 +43,7 @@ import { EmailNotificationProcessor } from '../worker/processors/email-notificat
     RetryEngineService,
   ],
   exports: [
+    WorkflowService,
     WorkflowExecutionWorker,
     ExecutionContextManager,
     ExecutionLogService,
